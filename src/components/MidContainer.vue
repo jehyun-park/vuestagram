@@ -41,7 +41,7 @@ write!</textarea
     </div>
 
     <div v-if="step == 3">
-      <MyPage :followers="followers" />
+      <MyPage />
     </div>
   </div>
 </template>
